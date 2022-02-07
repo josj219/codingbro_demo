@@ -3828,22 +3828,7 @@ fieldset:disabled .btn {
     transition: none;
   }
 }
-.navbar-expand-lg {
-  justify-content: space-between;
-}
 
-.ud-hero-content .ud-hero-title {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.ud-hero-title-area {
-  flex-direction: column;
-}
-.hero-logo {
-  height: 35vh;
-  margin-bottom: 5vh;
-}
 .navbar-toggler:hover {
   text-decoration: none;
 }
