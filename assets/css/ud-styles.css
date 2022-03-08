@@ -15,8 +15,9 @@
   --font: "Sunflower", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #FFF700;
-  --white: #222;
+  --primary-color: #fff700;
+  --white: #fff;
+  --grey: #333;
 }
 
 body {
@@ -331,7 +332,7 @@ p {
 .navbar-nav .nav-item > a {
   font-size: 18px;
   font-weight: 400;
-  color: var(--white);
+  color: var(--grey);
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 25px 8px;
@@ -551,7 +552,7 @@ p {
 }
 
 .ud-hero-content .ud-hero-title {
-  color: var(--white);
+  color: var(--grey);
   font-weight: 500;
   font-size: 40px;
   margin-top: 100px;
@@ -579,7 +580,7 @@ p {
   font-size: 20px;
   line-height: 35px;
   text-align: center;
-  color: var(--white);
+  color: var(--grey);
   opacity: 0.8;
   max-width: 600px;
   margin: auto;
@@ -817,7 +818,7 @@ p {
 
 /* ===== About CSS ===== */
 .ud-about {
-  background: #ecf8f6;
+  background: #fffb92;
   padding: 120px 0;
 }
 
@@ -883,7 +884,7 @@ iframe {
 .ud-about-content .tag {
   font-weight: 500;
   font-size: 14px;
-  color: var(--white);
+  color: var(--grey);
   background: var(--primary-color);
   padding: 5px 20px;
   display: inline-block;
@@ -951,10 +952,10 @@ iframe {
     linear,
     left top,
     left bottom,
-    from(#12be93),
-    to(#17eebf)
+    from(#fff700),
+    to(##fffca4)
   );
-  background: linear-gradient(180deg, #12be93 0%, #17eebf 100%);
+  background: linear-gradient(180deg, #fff700 0%, #fffca4 100%);
   border: none;
   padding: 55px 30px;
 }
@@ -965,7 +966,7 @@ iframe {
 }
 
 .ud-single-pricing.active .ud-pricing-body li {
-  color: var(--white);
+  color: var(--grey);
 }
 
 .ud-single-pricing.first-item::after,
@@ -978,14 +979,14 @@ iframe {
 }
 
 .ud-single-pricing.first-item::after {
-  background: var(--primary-color);
+  background: #fff700;
   left: -2px;
   bottom: -2px;
   border-radius: 0px 55px 0px 8px;
 }
 
 .ud-single-pricing.last-item::after {
-  background: #13c296;
+  background: #fff700;
   top: -2px;
   right: -2px;
   border-radius: 0px 8px 0px 55px;
@@ -994,7 +995,7 @@ iframe {
 .ud-single-pricing .ud-popular-tag {
   display: inline-block;
   padding: 10px 25px;
-  background: var(--white);
+  background: #0008ff;
   border-radius: 30px;
   color: var(--primary-color);
   margin-bottom: 20px;
@@ -1010,7 +1011,7 @@ iframe {
 .ud-single-pricing .ud-pricing-header h4 {
   font-weight: 600;
   font-size: 26px;
-  color: var(--primary-color);
+  color: #555;
   margin-bottom: 40px;
 }
 
@@ -1031,7 +1032,7 @@ iframe {
 
 .ud-single-pricing .ud-border-btn {
   border: 1px solid #d4deff;
-  color: var(--primary-color);
+  color: var(--grey);
   background: var(--white);
 }
 
@@ -1043,12 +1044,12 @@ iframe {
 
 .ud-single-pricing .ud-white-btn {
   background: var(--white);
-  color: var(--heading-color);
+  color: #0008ff;
 }
 
 .ud-single-pricing .ud-white-btn:hover {
   color: var(--white);
-  background: var(--heading-color);
+  background: #0008ff;
 }
 
 /* ===== FAQ CSS ===== */
@@ -1125,9 +1126,9 @@ iframe {
   justify-content: center;
   width: 42px;
   height: 42px;
-  background: rgba(38, 185, 141, 0.06);
+  background: var(--primary-color);
   border-radius: 10px;
-  color: var(--primary-color);
+  color: var(--grey);
   margin-right: 24px;
 }
 
