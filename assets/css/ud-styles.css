@@ -18,6 +18,7 @@
   --primary-color: #fff700;
   --white: #fff;
   --grey: #333;
+  --blue: #0008ff;
 }
 
 body {
@@ -159,6 +160,13 @@ p {
 .ud-main-btn:hover {
   color: var(--white);
   background: var(--heading-color);
+}
+
+.subject {
+  background: var(--primary-color);
+  padding: 0.15rem 0.6rem;
+  color: var(--grey);
+  border-radius: 9px;
 }
 
 @media (max-width: 767px) {
@@ -714,7 +722,10 @@ p {
 .ud-section-title span {
   font-weight: 600;
   font-size: 18px;
-  color: var(--primary-color);
+  background: var(--primary-color);
+  padding: 0.15rem 0.6rem;
+  color: var(--grey);
+  border-radius: 9px;
   margin-bottom: 10px;
 }
 
@@ -763,7 +774,7 @@ p {
   border-radius: 14px;
   background: var(--primary-color);
   font-size: 32px;
-  color: var(--white);
+  color: black;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -886,9 +897,11 @@ iframe {
   font-size: 14px;
   color: var(--grey);
   background: var(--primary-color);
-  padding: 5px 20px;
+  padding: 0.15rem 0.6rem;
   display: inline-block;
   margin-bottom: 20px;
+  color: var(--grey);
+  border-radius: 9px;
 }
 
 .ud-about-content h2 {
@@ -962,7 +975,7 @@ iframe {
 
 .ud-single-pricing.active .ud-pricing-header h3,
 .ud-single-pricing.active .ud-pricing-header h4 {
-  color: var(--white);
+  color: var(--blue);
 }
 
 .ud-single-pricing.active .ud-pricing-body li {
@@ -1037,7 +1050,7 @@ iframe {
 }
 
 .ud-single-pricing .ud-border-btn:hover {
-  color: var(--white);
+  color: var(--blue);
   border-color: var(--primary-color);
   background: var(--primary-color);
 }
