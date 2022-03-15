@@ -15,7 +15,7 @@
   --font: "Sunflower", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #fff700;
+  --primary-color: rgb(240 248 114 / 74%);
   --white: #fff;
   --grey: #333;
   --blue: #0008ff;
@@ -358,8 +358,8 @@ p {
 
 .navbar-nav .nav-item > a:hover,
 .navbar-nav .nav-item > a.active {
-  color: var(--white);
-  opacity: 0.5;
+  color: var(--blue);
+  opacity: 0.8;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -504,7 +504,7 @@ p {
 
 .sticky .navbar-nav .nav-item a.active,
 .sticky .navbar-nav .nav-item a:hover {
-  color: var(--primary-color);
+  color: var(--blue);
   opacity: 1;
 }
 
@@ -562,11 +562,12 @@ p {
 .ud-hero-content .ud-hero-title {
   color: var(--grey);
   font-weight: 500;
-  font-size: 40px;
+  font-size: 60px;
   margin-top: 100px;
   line-height: 60px;
   text-align: center;
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -674,11 +675,12 @@ p {
 
 .typing-kids {
   border-radius: 20px;
-  max-height: 220px;
+  max-height: 260px;
+  margin-top: 2.5rem;
 }
 
 .hero-logo {
-  max-height: 350px;
+  max-height: 424px;
 }
 
 .ud-hero-image img {
@@ -829,7 +831,7 @@ p {
 
 /* ===== About CSS ===== */
 .ud-about {
-  background: #fffb92;
+  background: #fff6db8a;
   padding: 120px 0;
 }
 
@@ -893,13 +895,13 @@ iframe {
 }
 
 .ud-about-content .tag {
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 18px;
   color: var(--grey);
   background: var(--primary-color);
   padding: 0.15rem 0.6rem;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 38px;
   color: var(--grey);
   border-radius: 9px;
 }
@@ -965,10 +967,10 @@ iframe {
     linear,
     left top,
     left bottom,
-    from(#fff700),
-    to(##fffca4)
+    from(var(--primary-color)),
+    to(##ffece1)
   );
-  background: linear-gradient(180deg, #fff700 0%, #fffca4 100%);
+  background: linear-gradient(180deg, var(--primary-color) 0%, #ffece1 100%);
   border: none;
   padding: 55px 30px;
 }
@@ -992,14 +994,14 @@ iframe {
 }
 
 .ud-single-pricing.first-item::after {
-  background: #fff700;
+  background: var(--primary-color);
   left: -2px;
   bottom: -2px;
   border-radius: 0px 55px 0px 8px;
 }
 
 .ud-single-pricing.last-item::after {
-  background: #fff700;
+  background: var(--primary-color);
   top: -2px;
   right: -2px;
   border-radius: 0px 8px 0px 55px;
@@ -1010,7 +1012,7 @@ iframe {
   padding: 10px 25px;
   background: #0008ff;
   border-radius: 30px;
-  color: var(--primary-color);
+  color: white;
   margin-bottom: 20px;
   font-weight: 600;
 }
@@ -1069,7 +1071,7 @@ iframe {
 .ud-faq {
   padding-top: 120px;
   padding-bottom: 90px;
-  background: #f3f4fe;
+  background: #fff6db8a;
   position: relative;
   z-index: 1;
 }

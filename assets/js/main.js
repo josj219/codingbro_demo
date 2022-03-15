@@ -59,7 +59,7 @@
   new WOW().init();
 
   // ====== scroll top js
-  function scrollTo(element, to = 0, duration = 500) {
+  function scrollTo(element, to = 0, duration = 50000) {
     const start = element.scrollTop;
     const change = to - start;
     const increment = 20;
