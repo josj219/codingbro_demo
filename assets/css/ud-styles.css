@@ -14,7 +14,7 @@
 :root {
   --font: "Sunflower", sans-serif;
   --body-color: #637381;
-  --heading-color: #212b36;
+  --heading-color: #42505e;
   --primary-color: rgb(240 248 114 / 74%);
   --white: #fff;
   --grey: #333;
@@ -130,6 +130,29 @@ p {
   margin: 0px;
 }
 
+.css-1tbvh81 {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  margin-top: -100px;
+}
+
+.css-1m33lmr {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(
+    180deg,
+    white 0%,
+    white 59px,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
 .bg_cover {
   background-position: center center;
   background-size: cover;
@@ -160,13 +183,6 @@ p {
 .ud-main-btn:hover {
   color: var(--white);
   background: var(--heading-color);
-}
-
-.subject {
-  background: var(--primary-color);
-  padding: 0.15rem 0.6rem;
-  color: var(--grey);
-  border-radius: 9px;
 }
 
 @media (max-width: 767px) {
@@ -528,8 +544,8 @@ p {
 
 /* ===== Hero CSS ===== */
 .ud-hero {
-  background: var(--primary-color);
-  padding-top: 180px;
+  /* background: var(--primary-color); */
+  padding-top: 99px;
   height: 100vh;
 }
 
@@ -557,6 +573,8 @@ p {
   max-width: 780px;
   margin: auto;
   margin-bottom: 55px;
+  margin-top: 100px;
+  z-index: 1;
 }
 
 .ud-hero-content .ud-hero-title {
@@ -681,6 +699,7 @@ p {
 
 .hero-logo {
   max-height: 424px;
+  z-index: 10;
 }
 
 .ud-hero-image img {
@@ -705,8 +724,12 @@ p {
 
 /* ===== Features CSS ===== */
 .ud-features {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding: 120px 0;
+  height: 100vh;
+}
+
+.features-icons {
+  padding-top: 40px;
 }
 
 @media (max-width: 767px) {
@@ -721,12 +744,12 @@ p {
   margin-bottom: 70px;
 }
 
-.ud-section-title span {
+.subject {
   font-weight: 600;
-  font-size: 18px;
-  background: var(--primary-color);
-  padding: 0.15rem 0.6rem;
-  color: var(--grey);
+  font-size: 32px;
+  /* background: var(--primary-color); */
+  /* padding: 0.15rem 0.6rem; */
+  color: var(--blue);
   border-radius: 9px;
   margin-bottom: 10px;
 }
@@ -774,7 +797,7 @@ p {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 14px;
-  background: var(--primary-color);
+  background: rgb(245 255 89 / 74%);
   font-size: 32px;
   color: black;
   position: relative;
@@ -792,7 +815,7 @@ p {
   left: 0;
   border-radius: 14px;
   background: var(--primary-color);
-  opacity: 0.2;
+  opacity: 0.6;
   z-index: -1;
   -webkit-transform: rotate(23deg);
   transform: rotate(23deg);
@@ -831,8 +854,9 @@ p {
 
 /* ===== About CSS ===== */
 .ud-about {
-  background: #fff6db8a;
-  padding: 120px 0;
+  background: #dedcd926;
+  height: 100vh;
+  display: flex;
 }
 
 .ud-about-image {
@@ -856,9 +880,13 @@ iframe {
   }
 }
 
+.ud-about-container {
+  margin: auto;
+}
+
 .ud-about-wrapper {
-  background: var(--white);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  /* background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.08); */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -941,8 +969,7 @@ iframe {
 
 /* ===== Pricing CSS ===== */
 .ud-pricing {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding: 60px 0;
 }
 
 @media (max-width: 767px) {
@@ -1018,8 +1045,8 @@ iframe {
 }
 
 .ud-single-pricing .ud-pricing-header h3 {
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 25px;
   margin-bottom: 8px;
 }
 
