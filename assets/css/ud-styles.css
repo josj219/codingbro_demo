@@ -995,7 +995,7 @@ iframe {
     left top,
     left bottom,
     from(var(--primary-color)),
-    to(##ffece1)
+    to(#ffece1)
   );
   background: linear-gradient(180deg, var(--primary-color) 0%, #ffece1 100%);
   border: none;
@@ -1097,7 +1097,7 @@ iframe {
 /* ===== FAQ CSS ===== */
 .ud-faq {
   background: #dedcd926;
-  height: 95vh;
+  height: 100vh;
   display: flex;
   padding-top: 80px;
 }
