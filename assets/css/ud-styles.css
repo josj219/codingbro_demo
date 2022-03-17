@@ -1097,7 +1097,7 @@ iframe {
 /* ===== FAQ CSS ===== */
 .ud-faq {
   background: #dedcd926;
-  height: 100vh;
+  height: 95vh;
   display: flex;
   padding-top: 80px;
 }
