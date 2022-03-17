@@ -223,7 +223,7 @@ p {
 
 .back-to-top:hover {
   color: var(--white);
-  background: var(--heading-color);
+  background: var(--blue);
 }
 
 /* ===== Header CSS ===== */
@@ -555,7 +555,6 @@ p {
   align-items: center;
   justify-content: center;
   margin: 0 0 20px 20px;
-  row-gap: 15px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -742,7 +741,7 @@ p {
 
 .ud-section-title {
   max-width: 620px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .subject {
@@ -1097,11 +1096,10 @@ iframe {
 
 /* ===== FAQ CSS ===== */
 .ud-faq {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  background: #fff6db8a;
-  position: relative;
-  z-index: 1;
+  background: #dedcd926;
+  height: 100vh;
+  display: flex;
+  padding-top: 80px;
 }
 
 @media (max-width: 767px) {
@@ -1569,8 +1567,8 @@ iframe {
 
 /* ===== Footer CSS ===== */
 .ud-footer {
-  background: var(--heading-color);
-  padding-top: 100px;
+  background: var(--primary-color);
+  padding-top: 15px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -1608,12 +1606,13 @@ iframe {
 
 .ud-widget .ud-footer-logo img {
   width: 100%;
+  padding-top: 30px;
 }
 
 .ud-widget .ud-widget-desc {
   font-size: 15px;
   line-height: 24px;
-  color: #f3f4fe;
+  color: var(--heading-color);
   margin-bottom: 30px;
   max-width: 260px;
 }
@@ -1625,11 +1624,12 @@ iframe {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 .ud-widget .ud-widget-socials a {
   font-size: 16px;
-  color: #dddddd;
+  color: var(--blue);
   margin-right: 20px;
 }
 
@@ -1641,7 +1641,9 @@ iframe {
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 35px;
-  color: var(--white);
+  color: var(--heading-color);
+  padding-top: 80px;
+  margin-left: 60px;
 }
 
 .ud-widget .ud-widget-links a {
