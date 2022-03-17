@@ -903,7 +903,7 @@ iframe {
 }
 
 .ud-about-content-wrapper {
-  padding: 70px;
+  padding: 55px;
 }
 
 @media (max-width: 767px) {
@@ -1600,13 +1600,13 @@ iframe {
 
 .ud-widget .ud-footer-logo {
   max-width: 160px;
-  display: block;
-  margin-bottom: 10px;
+  display: flex;
 }
 
 .ud-widget .ud-footer-logo img {
   width: 100%;
   padding-top: 30px;
+  margin-left: 40px;
 }
 
 .ud-widget .ud-widget-desc {
